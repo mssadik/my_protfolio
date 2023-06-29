@@ -1,0 +1,15 @@
+@keyframes slideInFromBelow {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .image-animation {
+    animation: slideInFromBelow 2s ease-in-out;
+  }
+  
