@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const navOptions = <>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="">Projects</Link></li>
-        <li><Link to="">Services</Link></li>
+        <li><a href="#banner">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><Link to="">About Me</Link></li>
-        <li><Link to="">Contack Me</Link></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
     </>
     return (
         <div className="fixed w-full  bg-slate-950 opacity-40">
