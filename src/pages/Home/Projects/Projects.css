@@ -55,3 +55,34 @@
 .technology:hover {
   background-color: #6b6d7d;
 }
+
+.popup-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+  max-height: calc(100vh - 40px); /* Adjust this value to leave space for padding/margin */
+}
+
+
+
+@media (max-width: 640px) {
+  .technologies {
+    display: flex;
+  }
+  .technology {
+    padding: 1px;
+    border-radius: 1px;
+    background-color: #4a4c59;
+    margin-bottom: 0px;
+    cursor: pointer;
+    transition: background-color 3s ease;
+  }
+  
+}

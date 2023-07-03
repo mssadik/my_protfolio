@@ -140,15 +140,15 @@ const Projects = () => {
                 </div>
             </div>
             {showPopup1 && (
-                <div className="fixed top-0 left-0 w-3/4 ml-40 h-full flex justify-center items-center">
+                <div className="fixed sm:flex-col md:flex-row text-xs md:text-sm top-0 left-0 md:w-3/4 ml-40 md:h-full justify-center items-center">
                     <div className="bg-[#2A2C39] text-white rounded-md p-8 relative">
                         <h2 className="text-2xl mb-4 font-bold">The Chef&apos;s Palette</h2>
                         <p>
                             Each recipe is accompanied by detailed instructions, including ingredient lists, step-by-step preparation methods, cooking times, and serving suggestions. Users can easily follow the recipes to recreate the dishes in their own kitchens.
                         </p>
                         <h3 className="text-white text-2xl mb-5 font-bold mt-5">Technologies Use</h3>
-                        <div className='flex'>
-                            <div className="technologies w-2/4 flex-wrap ">
+                        <div className='md:flex'>
+                            <div className="technologies w-full md:w-2/4 flex-wrap ">
                                 <spam className="technology uppercase">REACT.JS</spam>
                                 <spam className="technology uppercase">REACT-DOM</spam>
                                 <spam className="technology uppercase">firebase</spam>
@@ -157,9 +157,9 @@ const Projects = () => {
                                 <spam className="technology uppercase">heroicons</spam>
                                 <spam className="technology uppercase">react-toastify</spam>
                             </div>
-                            <div>
-                                <button className="button1 px-4 py-2 bg-blue-500 text-white rounded-md ml-20 mr-5"> <a href="https://github.com/mssadik/the-chef-s-palette">Client Code</a> </button>
-                                <button className="button2 px-4 py-2 bg-green-500 text-white rounded-md"> <a href="https://github.com/mssadik/the-chef-s-palette-server">Server Code</a> </button>
+                            <div className='mt-5'>
+                                <button className="button1 mb-2  md:px-4 py-2 bg-blue-500 text-white rounded-md md:ml-20 md:mr-5"> <a href="https://github.com/mssadik/the-chef-s-palette">Client Code</a> </button>
+                                <button className="button2 md:px-4 py-2 bg-green-500 text-white rounded-md"> <a href="https://github.com/mssadik/the-chef-s-palette-server">Server Code</a> </button>
                             </div>
                         </div>
                         <button
@@ -174,7 +174,7 @@ const Projects = () => {
 
 
             {showPopup2 && (
-                <div className="fixed top-0 left-0 w-3/4 ml-40 h-full flex justify-center items-center">
+                <div className="fixed sm:flex-col md:flex-row text-xs md:text-sm top-0 left-0 md:w-3/4 ml-40 md:h-full justify-center items-center">
                     <div className="bg-[#2A2C39] text-white rounded-md p-8 relative">
                         <h2 className="text-2xl mb-4 font-bold underline">Mini Car World</h2>
                         <p>
@@ -184,8 +184,8 @@ const Projects = () => {
                             <span className='font-bold'>Shopping Cart:</span> Users can add toys to their cart, update quantities, and proceed to checkout to make a purchase.
                         </p>
                         <h3 className="text-white text-2xl mb-5 font-bold mt-5">Technologies Use</h3>
-                        <div className='flex'>
-                            <div className="technologies w-2/4 flex-wrap ">
+                        <div className='md:flex'>
+                            <div className="technologies w-full md:w-2/4 flex-wrap ">
                                 <spam className="technology uppercase">REACT.JS</spam>
                                 <spam className="technology uppercase">REACT-DOM</spam>
                                 <spam className="technology uppercase">daisy ui</spam>
@@ -213,7 +213,7 @@ const Projects = () => {
                 </div>
             )}
             {showPopup3 && (
-                <div className="fixed top-0 left-0 w-3/4 ml-40 h-full flex justify-center items-center">
+                <div className="fixed sm:flex-col md:flex-row text-xs md:text-sm top-0 left-0 md:w-3/4 ml-40 md:h-full justify-center items-center">
                     <div className="bg-[#2A2C39] text-white rounded-md p-8 relative">
                         <h2 className="text-2xl mb-4 font-bold">The Chef&apos;s Palette</h2>
                         <p>
@@ -227,8 +227,8 @@ const Projects = () => {
                             Payment functionality with a payment page, reducing available seats upon successful payment and displaying class information on the enrolled classes page.
                         </p>
                         <h3 className="text-white text-2xl mb-5 font-bold mt-5">Technologies Use</h3>
-                        <div className='flex'>
-                            <div className="technologies w-2/4 flex-wrap ">
+                        <div className='md:flex'>
+                            <div className="technologies w-full md:w-2/4 flex-wrap">
                                 <spam className="technology uppercase">REACT.JS</spam>
                                 <spam className="technology uppercase">REACT-DOM</spam>
                                 <spam className="technology uppercase">firebase</spam>
