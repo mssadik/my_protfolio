@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { Transition } from '@headlessui/react';
 import "./Projects.css"
 
 
@@ -57,21 +56,16 @@ const Projects = () => {
             <p className="text-xs Roboto_Slab">|| Projects</p>
             <h1 className="text-4xl Roboto_Slab pt-10">My completed projects</h1>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-20">
-                <div className={`h-96 relative ${animate ? 'animate-left' : ''}`} data-aos="fade-right">
-                    <Transition
-                        show={animate}
-                        enter="transition-all duration-1000 ease-in-out"
-                        enterFrom="-translate-x-full"
-                        enterTo="translate-x-0"
-                        leave="transition-all duration-1000 ease-in-out"
-                        leaveFrom="translate-x-0"
-                        leaveTo="-translate-x-full">
+                <div className={`h-96 relative ${animate ? 'animate-left' : ''}`}  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+                    
                         <img
                             className="w-full h-96 object-cover rounded-md object-top transition-all duration-1000 ease-in-out hover:object-bottom"
                             src="https://i.ibb.co/bHrRdck/as10.png"
                             alt=""
                         />
-                    </Transition>
+                   
                     <div className="absolute bottom-5 left-5 flex space-x-2">
                         <button
                             className=" button1 px-4 py-2 bg-blue-500 text-white rounded-md"
@@ -84,21 +78,16 @@ const Projects = () => {
                         </button>
                     </div>
                 </div>
-                <div className={`h-96 relative ${animate ? 'animate-left' : ''}`} data-aos="fade-right">
-                    <Transition
-                        show={animate}
-                        enter="transition-all duration-1000 ease-in-out"
-                        enterFrom="translate-x-full"
-                        enterTo="translate-x-0"
-                        leave="transition-all duration-1000 ease-in-out"
-                        leaveFrom="translate-x-0"
-                        leaveTo="translate-x-full">
+                <div className={`h-96 relative ${animate ? 'animate-left' : ''}`}  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+                   
                         <img
                             className="w-full h-96 object-cover rounded-md object-top transition-all duration-1000 ease-in-out hover:object-bottom"
                             src="https://i.ibb.co/Gsk7gKV/ass11.png"
                             alt=""
                         />
-                    </Transition>
+                   
                     <div className="absolute bottom-5 left-5 flex space-x-2">
                         <button
                             className="button1 px-4 py-2 bg-blue-500 text-white rounded-md"
@@ -111,21 +100,16 @@ const Projects = () => {
                         </button>
                     </div>
                 </div>
-                <div className={`h-96 relative ${animate ? 'animate-left' : ''}`} data-aos="fade-right">
-                    <Transition
-                        show={animate}
-                        enter="transition-all duration-1000 ease-in-out"
-                        enterFrom="-translate-x-full"
-                        enterTo="translate-x-0"
-                        leave="transition-all duration-1000 ease-in-out"
-                        leaveFrom="translate-x-0"
-                        leaveTo="-translate-x-full">
+                <div className={`h-96 relative ${animate ? 'animate-left' : ''}`}  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+                   
                         <img
                             className="w-full h-96 object-cover rounded-md object-top transition-all duration-1000 ease-in-out hover:object-bottom"
                             src="https://i.ibb.co/Kmddb7V/ass12.png"
                             alt=""
                         />
-                    </Transition>
+                  
                     <div className="absolute bottom-5 left-5 flex space-x-2">
                         <button
                             className="button1 px-4 py-2 bg-blue-500 text-white rounded-md"

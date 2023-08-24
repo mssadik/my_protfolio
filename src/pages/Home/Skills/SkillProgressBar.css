@@ -34,30 +34,22 @@
 
   /* Add this CSS to the SkillProgressBar.css file */
 
-@keyframes jump {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-}
 
+/* 
 .SkillProgressBar:nth-child(1),
 .SkillProgressBar:nth-child(2),
 .SkillProgressBar:nth-child(3) {
   animation-name: jump;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-}
+} */
 
-.SkillProgressBar {
+/* .SkillProgressBar {
   transition: transform 0.3s ease-in-out;
-}
+} */
 
-.SkillProgressBar:hover {
+/* .SkillProgressBar:hover {
   transform: scale(1.05);
-}
+} */
 
   
